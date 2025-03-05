@@ -44,6 +44,9 @@
 
 3. Open your web browser and go to `http://localhost:8501` to access the application.
 
+## Live Demo
+Check out the live demo on Hugging Face Spaces: [textToSQLGenAI](https://huggingface.co/spaces/xyzyourdad01/textToSQLGenAI)
+
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
