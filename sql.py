@@ -23,6 +23,8 @@ def read_sql_query(sql,db):
     cur = conn.cursor()
     cur.execute(sql)
     rows = cur.fetchall()
+    conn.commit()
+    conn.close()
     for row in rows:
         print(row)
     return rows
