@@ -48,7 +48,7 @@
 Check out the live demo on Hugging Face Spaces: [textToSQLGenAI](https://huggingface.co/spaces/xyzyourdad01/textToSQLGenAI)
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
