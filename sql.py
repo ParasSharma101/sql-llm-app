@@ -9,10 +9,14 @@ import google.generativeai as genai
 ## configuer the google credentials
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
+models = genai.list_models()
+for model in models:
+    print(model.name)
+
 ##function to load google gemini model
 
 def get_gemini_response(question, prompt):
-    model = genai.GenerativeModel('gemini-pro')
+    model = genai.GenerativeModel('gemini-1.5-pro-latest') 
     response = model.generate_content([prompt[0],question])
     return response.text
 
